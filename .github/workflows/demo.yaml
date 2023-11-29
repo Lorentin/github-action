@@ -3,7 +3,7 @@ on: push
 jobs:
   Premier-job:
     name: premierJob
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      -run: echo "premier job"
-      -run: echo "fin"
+      - run: echo "premier job"
+      - run: echo "fin du job"
